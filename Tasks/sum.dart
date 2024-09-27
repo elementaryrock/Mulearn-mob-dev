@@ -1,6 +1,9 @@
-import 'dart.io';
-print('Enter the first no');
-var first = int.parse(stdin.readLineSync());
-print('Enter the second no');
-var second = int.parse(stdin.readLineSync());
-print('The sum is ${first + second}');
+import 'dart:io';
+
+void main() {
+  print('Enter the first number:');
+  var first = int.parse(stdin.readLineSync()!);
+  print('Enter the second number:');
+  var second = int.parse(stdin.readLineSync()!);
+  print('The sum is ${first + second}');
+}
