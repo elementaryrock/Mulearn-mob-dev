@@ -5,5 +5,5 @@ void main() {
   var first = int.parse(stdin.readLineSync()!);
   print('Enter the second number:');
   var second = int.parse(stdin.readLineSync()!);
-  print('The sum is ${first + second}');
+  print('The sum of ${first} and ${second} is ${first + second}.');
 }
